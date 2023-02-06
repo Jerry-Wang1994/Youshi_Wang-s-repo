@@ -192,7 +192,7 @@ plt.xlabel('Value of k for KNN')
 plt.ylabel('Accuracy Score')
 plt.show()
 
-#we are right, accuracy stays flat after certain k value and therefore k input of 113 is the best.
+#we are right, accuracy stays flat after certain k value till 500 and therefore k input of 113 is so far the best.
 
 print("My name is Youshi Wang")
 print("My NetID is: youshiw2")
