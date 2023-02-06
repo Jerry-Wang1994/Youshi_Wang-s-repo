@@ -158,7 +158,7 @@ for k in k_range:
     scores.append(metrics.accuracy_score(y_test,y_pred))
     #check scores in Variables Explorer to find the k value with maximum accuracy:
         #in this case: k value of 21 is the best with accuracy 0.57+
-#plot accuracy against k values for visualization
+#plot accuracy against k values for graphical visualization
 plt.plot(k_range, scores)
 plt.xlabel('Value of k for KNN')
 plt.ylabel('Accuracy Score')
