@@ -111,7 +111,7 @@ var_coal = np.var(coal_liquidity)
 std_coal = np.std(coal_liquidity)
 print('stds are 8.55 and 10.91 for banks and coal, so coal liquidity is more spread out.')
 print()
-print('I believe greater liquidity stands more greater number of trades of that bond.')
+print('I believe greater liquidity stands for greater number of trades of that bond.')
 print()
 print('I would find the correlation coefficient to check my hypothesis.')
 banks_ntrade = df.loc[df['industry'] == 'Banks', 'weekly_mean_ntrades']
